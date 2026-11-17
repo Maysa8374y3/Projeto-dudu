@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Esquadralum</title>
+    <!-- Biblioteca de ícones (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="navbar">
+        <div class="logo-area">
+            <!-- Símbolo da logo -->
+            <div class="logo-circle"></div>
+            <div class="logo-text">
+                <span class="brand-name">ESQUADRALUM</span>
+                <span class="brand-sub">SOLUÇÕES EM ESQUADRIAS</span>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="#">Inicio</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal (Card de Login) -->
+    <main class="main-container">
+        <div class="login-card">
+            <div class="card-logo">
+                <div class="logo-circle large"></div>
+            </div>
+            
+            <h2>Login</h2>
+
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <div class="input-wrapper">
+                        <i class="fa-regular fa-envelope icon-left"></i>
+                        <input type="email" id="email" placeholder="usuario@gmail.com" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="senha">Senha</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-lock icon-left"></i>
+                        <input type="password" id="senha" placeholder="•••••••••••" required>
+                        <i class="fa-regular fa-eye icon-right" id="toggleSenha"></i>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-entrar">Entrar</button>
+            </form>
+
+            <a href="#" class="link-cadastro">Cadastre-se</a>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-logo">
+            <div class="logo-circle small white"></div>
+            <div class="logo-text white">
+                <span class="brand-name">ESQUADRALUM</span>
+                <span class="brand-sub">SOLUÇÕES EM ESQUADRIAS</span>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-support">
+            <a href="#">Suporte Técnico e Contato</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
